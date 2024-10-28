@@ -38,14 +38,6 @@ public class TriangleController {
         model.setWidth(width);
     }
 
-    public void setTriangleArea(Triangle ob) {
-        model.getArea();
-    }
-
-    public void  setTrianglePerimeter(Triangle ob){
-        model.getPerimeter();
-    }
-
     public void updateView(){
         view.printTriangleCalculations( getTriangleLength(), getTriangleWidth(),
                 getTriangleArea(),getTrianglePerimeter() );

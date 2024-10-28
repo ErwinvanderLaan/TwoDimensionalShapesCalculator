@@ -38,14 +38,6 @@ public class RectangleController {
         model.setWidth(width);
     }
 
-    public void setRectangleArea(Rectangle ob) {
-        model.getArea();
-    }
-
-    public void  setRectanglePerimeter(Rectangle ob){
-        model.getPerimeter();
-    }
-
     public void updateView(){
         view.printRectangleCalculations(getRectangleLength(), getRectangleWidth(),
                 getRectangleArea(),getRectanglePerimeter());
